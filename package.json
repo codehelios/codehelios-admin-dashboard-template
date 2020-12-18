@@ -5,6 +5,8 @@
   "dependencies": {
     "@loadable/component": "^5.14.1",
     "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
     "firebase": "^7.24.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -14,6 +16,7 @@
     "react-scripts": "^3.4.4",
     "redux": "^4.0.5",
     "redux-firestore": "^0.13.0",
+    "redux-form": "^8.3.7",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {

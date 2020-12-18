@@ -1,5 +1,4 @@
-import { default as appReducers } from './app';
-
+import { default as appReducers } from "./app";
 export const ducks = {
-	...appReducers,
+  ...appReducers,
 };
