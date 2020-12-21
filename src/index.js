@@ -15,8 +15,8 @@ import { theme } from "views/UI/theme";
 
 import "./index.css";
 import { App } from "views/routes";
-import Authenticate from "views/components/Authenticate";
 import { CssBaseline } from "@material-ui/core";
+import { AuthIsLoaded } from "views/components/Authenticate/AuthIsLoader";
 
 const rrfProps = {
   firebase,
@@ -31,10 +31,10 @@ render(
       <ReactReduxFirebaseProvider {...rrfProps}>
         <ThemeProvider theme={theme}>
           <Router history={history}>
-            <Authenticate>
+            <AuthIsLoaded>
               <CssBaseline />
               <App />
-            </Authenticate>
+            </AuthIsLoaded>
           </Router>
         </ThemeProvider>
       </ReactReduxFirebaseProvider>
